@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/382" MessageSchemaVersionId="ern/382" LanguageAndScriptCode="en">
+  <MessageHeader>
+    <MessageThreadId>NW-SAMPLE-NewReleaseDelivery-1790402909010</MessageThreadId>
+    <MessageId>NW-SAMPLE-NewReleaseDelivery-1790402909010</MessageId>
+    <MessageSender>
+      <PartyId>PADPIDA20210305054</PartyId>
+      <PartyName><FullName>nowaste</FullName></PartyName>
+    </MessageSender>
+    <MessageRecipient>
+      <PartyId>PADPIDASMWDMB</PartyId>
+      <PartyName><FullName>SMW DMB</FullName></PartyName>
+    </MessageRecipient>
+    <MessageCreatedDateTime>2026-09-26T06:08:29.016Z</MessageCreatedDateTime>
+  </MessageHeader>
+  <ResourceList>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>USRC17607839</ISRC>
+        <ProprietaryId Namespace="DPID:nowaste">bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb</ProprietaryId>
+      </SoundRecordingId>
+      <ResourceReference>A1</ResourceReference>
+      <ReferenceTitle>
+        <TitleText LanguageAndScriptCode="en">Sample Track</TitleText>
+      </ReferenceTitle>
+      <IsInstrumental>false</IsInstrumental>
+      <LanguageOfPerformance>en</LanguageOfPerformance>
+      <Duration>PT3M5S</Duration>
+      <ResourceContainedResourceReferenceList>
+        <ResourceContainedResourceReference>
+          <ResourceContainedResourceReference>A1001</ResourceContainedResourceReference>
+        </ResourceContainedResourceReference>
+      </ResourceContainedResourceReferenceList>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <Title TitleType="DisplayTitle">
+          <TitleText LanguageAndScriptCode="en">Sample Track</TitleText>
+        </Title>
+        <DisplayArtist SequenceNumber="1">
+          <PartyName LanguageAndScriptCode="en">
+            <FullName>Sample Artist</FullName>
+          </PartyName>
+          
+          <ArtistRole>MainArtist</ArtistRole><ArtistRole UserDefinedValue="Vocals">UserDefined</ArtistRole><ArtistRole UserDefinedValue="Synthesizer">UserDefined</ArtistRole>
+        </DisplayArtist>
+        <ResourceContributor>
+          <PartyName LanguageAndScriptCode="en">
+            <FullName>Sample Producer</FullName>
+          </PartyName>
+          
+          <ResourceContributorRole>Producer</ResourceContributorRole>
+        </ResourceContributor>
+        <IndirectResourceContributor>
+          <PartyName LanguageAndScriptCode="en">
+            <FullName>Ivan Ivanov Ivanovich</FullName>
+          </PartyName>
+          
+          <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+<IndirectResourceContributor>
+          <PartyName LanguageAndScriptCode="en">
+            <FullName>Ivan Ivanov Ivanovich</FullName>
+          </PartyName>
+          
+          <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <PLine>
+          <Year>2026</Year>
+          <PLineText>(P) 2026 nowaste</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Electronica</GenreText>
+          <SubGenre>IDM</SubGenre>
+        </Genre>
+        <ParentalWarningType>Explicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+          <File>
+            <URL>./4631164908848/resources/sample.wav</URL>
+            
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <Image>
+      <ImageType>FrontCoverImage</ImageType>
+      <ImageId><ProprietaryId Namespace="DPID:nowaste">cccccccc-cccc-cccc-cccc-cccccccccccc</ProprietaryId></ImageId>
+      <ResourceReference>A2</ResourceReference>
+      <ImageDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <TechnicalImageDetails>
+          <TechnicalResourceDetailsReference>TI1</TechnicalResourceDetailsReference>
+          <File>
+            <URL>./4631164908848/resources/cover.jpg</URL>
+            
+          </File>
+        </TechnicalImageDetails>
+      </ImageDetailsByTerritory>
+    </Image>
+    <Text>
+      <TextType>LyricText</TextType>
+      <IsArtistRelated>true</IsArtistRelated>
+      <TextId><ProprietaryId Namespace="DPID:nowaste">lyrics-bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb</ProprietaryId></TextId>
+      <ResourceReference>A1001</ResourceReference>
+      <Title>
+        <TitleText LanguageAndScriptCode="en">Sample Track - Lyrics</TitleText>
+      </Title>
+      <TextDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <TechnicalTextDetails>
+          <TechnicalResourceDetailsReference>TT1</TechnicalResourceDetailsReference>
+          <TextCodecType UserDefinedValue="UTF-8">UserDefined</TextCodecType>
+          <File>
+            <URL>./4631164908848/resources/lyrics/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb.txt</URL>
+            <HashSum><HashSum>7ccaee4eb2a6ac3d1f37d211e40fb964</HashSum><HashSumAlgorithmType>MD5</HashSumAlgorithmType></HashSum>
+          </File>
+        </TechnicalTextDetails>
+      </TextDetailsByTerritory>
+    </Text>
+  </ResourceList>
+  <ReleaseList>
+    <Release>
+      <ReleaseId>
+        <ICPN IsEan="true">4631164908848</ICPN>
+        <ProprietaryId Namespace="DPID:nowaste-release">aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</ProprietaryId>
+      </ReleaseId>
+      <ReleaseReference>R0</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText LanguageAndScriptCode="en">nowaste Sample Release</TitleText>
+        
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference>A1</ReleaseResourceReference>
+        <ReleaseResourceReference>A2</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>Worldwide</TerritoryCode>
+        <DisplayArtistName>Sample Artist</DisplayArtistName>
+        <LabelName>nowaste</LabelName>
+        <Title TitleType="DisplayTitle">
+          <TitleText LanguageAndScriptCode="en">nowaste Sample Release</TitleText>
+          
+        </Title>
+        <DisplayArtist SequenceNumber="1">
+          <PartyName LanguageAndScriptCode="en">
+            <FullName>Sample Artist</FullName>
+          </PartyName>
+          
+          <ArtistRole>MainArtist</ArtistRole><ArtistRole UserDefinedValue="Vocals">UserDefined</ArtistRole><ArtistRole UserDefinedValue="Synthesizer">UserDefined</ArtistRole>
+        </DisplayArtist>
+        <ParentalWarningType>Explicit</ParentalWarningType>
+        <ResourceGroup>
+          <ResourceContributor>
+          <PartyName LanguageAndScriptCode="en">
+            <FullName>Sample Producer</FullName>
+          </PartyName>
+          
+          <ResourceContributorRole>Producer</ResourceContributorRole>
+        </ResourceContributor>
+          <IndirectResourceContributor>
+          <PartyName LanguageAndScriptCode="en">
+            <FullName>Ivan Ivanov Ivanovich</FullName>
+          </PartyName>
+          
+          <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+          <ResourceGroupContentItem>
+          <SequenceNumber>1</SequenceNumber>
+          <ResourceType>SoundRecording</ResourceType>
+          <ReleaseResourceReference>A1</ReleaseResourceReference>
+        </ResourceGroupContentItem>
+        </ResourceGroup>
+        <Genre>
+          <GenreText>Electronica</GenreText>
+          <SubGenre>IDM</SubGenre>
+        </Genre>
+        <PLine>
+          <Year>2026</Year>
+          <PLineText>(P) 2026 nowaste</PLineText>
+        </PLine>
+        <CLine>
+          <Year>2026</Year>
+          <CLineText>(C) 2026 nowaste</CLineText>
+        </CLine>
+        <ReleaseDate>2026-09-26</ReleaseDate>
+        
+      </ReleaseDetailsByTerritory>
+      <GlobalReleaseDate>2026-09-26</GlobalReleaseDate>
+      
+      <GlobalOriginalReleaseDate>2026-09-26</GlobalOriginalReleaseDate>
+    </Release>
+  </ReleaseList>
+  <DealList>
+    <ReleaseDeal>
+      <DealReleaseReference>R0</DealReleaseReference>
+      <Deal>
+        <DealTerms>
+          
+          <CommercialModelType>SubscriptionModel</CommercialModelType>
+          <Usage>
+            <UseType>ConditionalDownload</UseType>
+            <UseType>Stream</UseType>
+          </Usage>
+          <TerritoryCode>Worldwide</TerritoryCode>
+          <DistributionChannel>
+            <PartyId>7</PartyId>
+            <TradingName>iTunes Store / Apple Music</TradingName>
+          </DistributionChannel>
+<DistributionChannel>
+            <PartyId>106</PartyId>
+            <TradingName>Spotify</TradingName>
+          </DistributionChannel>
+          <ValidityPeriod>
+            <StartDate>2026-09-26</StartDate>
+          </ValidityPeriod>
+          
+          
+        </DealTerms>
+      </Deal>
+    </ReleaseDeal>
+  </DealList>
+</ern:NewReleaseMessage>
